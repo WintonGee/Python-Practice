@@ -7,7 +7,7 @@ num_guesses = int(input("Enter number of guesses: "))
 
 # generate and cache a number between the lower and upper bound
 random_val = random.randint(lower_bound, upper_bound)
-print("You have ", num_guesses, " to guess the random number between ",
+print("You have ", num_guesses, "chances to guess the random number between ",
       lower_bound, " and ", upper_bound)
 
 # Initializing the number of guesses.
