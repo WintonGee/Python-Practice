@@ -1,5 +1,4 @@
 import random
-import math
 
 # Getting the user's input
 lower_bound = int(input("Enter Lower bound: "))
@@ -22,7 +21,7 @@ while count < num_guesses:
 
     # Checking if the player guessed the correct number.
     if random_val == guess:
-        print("Congratulations you did it in ", count, " tries")
+        print("Congratulations you guessed the correct number ", random_val, " in ", count, " tries!")
         break
     elif random_val > guess:
         print("You guessed too small!")
