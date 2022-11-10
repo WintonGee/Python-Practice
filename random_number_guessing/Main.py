@@ -13,8 +13,7 @@ print("You have ", num_guesses, " to guess the random number between ",
 # Initializing the number of guesses.
 count = 0
 
-# for calculation of minimum number of
-# guesses depends upon range
+# Allow the user to keep guessing while under the limit for number of guesses
 while count < num_guesses:
     count += 1
     guess = int(input("Guess a number: "))
